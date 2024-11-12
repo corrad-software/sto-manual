@@ -22,7 +22,6 @@ export default defineConfig({
           },
           { text: "Troli", link: "/panduan/pengguna/troli" },
           { text: "Pembayaran", link: "/panduan/pengguna/pembayaran" },
-          { text: "Profil", link: "/panduan/pengguna/profil" },
         ],
       },
       {
@@ -33,6 +32,8 @@ export default defineConfig({
           { text: "Maklumat Bank", link: "/panduan/admin/maklumat-bank" },
           { text: "Senarai Tempahan", link: "/panduan/admin/senarai-tempahan" },
           { text: "Tukar Kata Laluan", link: "/panduan/admin/kata-laluan" },
+          { text: "Pusat Bantuan", link: "/panduan/admin/bantuan" },
+          { text: "Terma & Syarat", link: "/panduan/admin/terma-syarat" },
         ],
       },
     ],
@@ -68,7 +69,7 @@ export default defineConfig({
               link: "/panduan/admin/senarai-tempahan",
             },
             { text: "Tukar Kata Laluan", link: "/panduan/admin/kata-laluan" },
-            { text: "Pusat Bantuan", link: "/panduan/admin/pusat-bantuan" },
+            { text: "Pusat Bantuan", link: "/panduan/admin/bantuan" },
             { text: "Terma & Syarat", link: "/panduan/admin/terma-syarat" },
           ],
         },
@@ -78,11 +79,6 @@ export default defineConfig({
     socialLinks: [
       { icon: "facebook", link: "https://www.facebook.com/mpselayang" },
     ],
-
-    footer: {
-      message: "Sistem Tempahan Online MPS",
-      copyright: "© 2024 Majlis Perbandaran Selayang. Hak Cipta Terpelihara.",
-    },
 
     search: {
       provider: "local",

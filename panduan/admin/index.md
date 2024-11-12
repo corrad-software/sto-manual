@@ -8,7 +8,7 @@ Selamat datang ke Portal Admin Sistem Tempahan Online Majlis Perbandaran Selayan
 
 ### [Profil Pengguna](./profil)
 
-- Kemaskini maklumat peribadi seperti:
+- Kemaskini maklumat peribadi:
   - Alamat e-mel
   - Nombor telefon
   - Nama penuh
@@ -18,7 +18,7 @@ Selamat datang ke Portal Admin Sistem Tempahan Online Majlis Perbandaran Selayan
   - Bangsa
   - Status OKU
 
-### [Maklumat Bank](./bank)
+### [Maklumat Bank](./maklumat-bank)
 
 - Pengurusan maklumat bank untuk pemulangan cagaran
 - Kemaskini butiran:
@@ -26,7 +26,7 @@ Selamat datang ke Portal Admin Sistem Tempahan Online Majlis Perbandaran Selayan
   - Nama pemegang akaun
   - Nombor akaun
 
-### [Senarai Tempahan](./tempahan)
+### [Senarai Tempahan](./senarai-tempahan)
 
 - Semakan senarai tempahan pengguna
 - Pengurusan butiran tempahan:
@@ -41,15 +41,17 @@ Selamat datang ke Portal Admin Sistem Tempahan Online Majlis Perbandaran Selayan
 
 ### [Tukar Kata Laluan](./kata-laluan)
 
-- Pengurusan keselamatan akaun
-- Proses penukaran kata laluan
-- Pengesahan kata laluan
+- Masukkan kata laluan semasa
+- Masukkan kata laluan baru
+- Sahkan kata laluan baru
+- Kemaskini kata laluan
 
 ### [Pusat Bantuan](./bantuan)
 
-- Akses kepada soalan lazim (FAQ)
-- Borang pertanyaan sokongan
-- Panduan penggunaan sistem
+- Akses soalan lazim (FAQ)
+- Klik soalan untuk jawapan
+- Hubungi sokongan
+- Isi borang pertanyaan
 
 ### [Terma & Syarat](./terma-syarat)
 

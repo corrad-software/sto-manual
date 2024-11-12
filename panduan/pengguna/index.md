@@ -15,45 +15,56 @@ Selamat datang ke Sistem Tempahan Online Majlis Perbandaran Selayang. Sistem ini
 - Semakan status tempahan
 - Muat turun dokumen penting (resit, aku janji)
 
-### Bahagian-bahagian Panduan
+## Bahagian-bahagian Panduan
 
-1. **[Pendaftaran](./pendaftaran)**
+### [Pendaftaran](./pendaftaran)
 
-   - Langkah-langkah pendaftaran akaun baru
-   - Proses pengesahan akaun melalui e-mel
-   - Panduan log masuk ke sistem
-   - Pemulihan kata laluan
+- Langkah-langkah pendaftaran akaun baru
+- Proses pengesahan melalui OTP
+- Pengendalian ralat pendaftaran
+- Log masuk ke sistem
+- Log masuk dengan Google/Facebook
 
-2. **[Tempahan](./tempahan)**
+### [Tempahan](./tempahan)
 
-   - Carian kemudahan yang tersedia
-   - Semakan kalendar kekosongan
-   - Proses tempahan langkah demi langkah
-   - Pengurusan tempahan sedia ada
-   - Pembatalan tempahan
-   - Muat turun dokumen tempahan
+- Carian dan pemilihan kemudahan
+  - Semakan butiran kemudahan
+  - Proses tempahan langkah demi langkah
 
-3. **[Pembayaran](./pembayaran)**
+### [Borang Tempahan](./borang-tempahan)
 
-   - Kaedah pembayaran yang diterima
-   - Panduan pembayaran dalam talian
-   - Semakan status pembayaran
-   - Muat turun resit
-   - Pemulangan wang cagaran
+- Pemilihan tarikh dan masa
+  - Pilihan sesi tempahan
+  - Pilihan persiapan
+  - Pengisian tujuan tempahan
 
-4. **[Profil Pengguna](./profil)**
-   - Kemaskini maklumat peribadi
-   - Pengurusan maklumat bank
-   - Tukar kata laluan
-   - Tetapan notifikasi
+### [Kalendar](./kalendar)
 
-## Bantuan dan Sokongan
+- Semakan ketersediaan kemudahan
+  - Navigasi kalendar tempahan
+  - Pengendalian ralat semakan
 
-Sekiranya anda memerlukan bantuan tambahan:
+### [Troli](./troli)
 
-- Rujuk bahagian [Pusat Bantuan](./bantuan) untuk soalan lazim
-- Hubungi khidmat sokongan melalui borang dalam talian
-- Semak [Terma & Syarat](./terma-syarat) untuk maklumat lanjut
+- Semakan ringkasan tempahan
+  - Pengurusan item dalam troli
+  - Penambahan/pembatalan tempahan
+  - Proses ke pembayaran
+
+### [Pembayaran](./pembayaran)
+
+- Semakan butiran bayaran
+  - Maklumat bank untuk cagaran
+  - Kaedah pembayaran FPX/kad kredit
+  - Panduan pembayaran FPX
+  - Pengendalian ralat pembayaran
+
+### [Resit](./resit)
+
+- Semakan butiran pembayaran
+  - Muat turun resit PDF
+  - Cetakan resit fizikal
+  - Maklumat transaksi lengkap
 
 ## Nota Penting
 
