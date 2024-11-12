@@ -6,7 +6,7 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     siteTitle: "Sistem Tempahan Online",
-    logo: "/images/logo.png",
+    logo: "./images/logo.png",
     nav: [
       { text: "Utama", link: "/" },
       {
@@ -122,7 +122,7 @@ export default defineConfig({
   },
 
   head: [
-    ["link", { rel: "icon", href: "/images/favicon.ico" }],
+    ["link", { rel: "icon", href: "./images/favicon.ico" }],
     ["meta", { name: "theme-color", content: "#3eaf7c" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [

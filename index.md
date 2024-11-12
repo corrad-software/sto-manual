@@ -6,7 +6,7 @@ hero:
   text: "Majlis Perbandaran Selayang"
   tagline: "Portal Tempahan Kemudahan Awam"
   image:
-    src: /images/logo.png
+    src: ./images/logo.png
     alt: Logo MPS
   actions:
     - theme: brand
