@@ -6,7 +6,7 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     siteTitle: "Sistem Tempahan Online",
-    logo: "./images/logo.png",
+    logo: "https://mymps.mps.gov.my/Asset%202.png",
     nav: [
       { text: "Utama", link: "/" },
       {
