@@ -17,10 +17,13 @@ export default defineConfig({
           { text: "Log Masuk", link: "/panduan/pengguna/log-masuk" },
           { text: "Tempahan", link: "/panduan/pengguna/tempahan" },
           {
-            text: "Borang Tempahan",
-            link: "/panduan/pengguna/borang-tempahan",
+            text: "Tempahan Dewan",
+            link: "/panduan/pengguna/tempahan/dewan",
           },
-          { text: "Troli", link: "/panduan/pengguna/troli" },
+          {
+            text: "Tempahan Gelanggang",
+            link: "/panduan/pengguna/tempahan/gelanggang",
+          },
           { text: "Pembayaran", link: "/panduan/pengguna/pembayaran" },
         ],
       },
@@ -47,11 +50,6 @@ export default defineConfig({
             { text: "Log Masuk", link: "/panduan/pengguna/log-masuk" },
             { text: "Tempahan", link: "/panduan/pengguna/tempahan" },
             { text: "Kalendar", link: "/panduan/pengguna/kalendar" },
-            {
-              text: "Borang Tempahan",
-              link: "/panduan/pengguna/borang-tempahan",
-            },
-            { text: "Troli", link: "/panduan/pengguna/troli" },
             { text: "Pembayaran", link: "/panduan/pengguna/pembayaran" },
             { text: "Resit", link: "/panduan/pengguna/resit" },
           ],
@@ -122,7 +120,7 @@ export default defineConfig({
   },
 
   head: [
-    ["link", { rel: "icon", href: "./images/favicon.ico" }],
+    ["link", { rel: "icon", href: "../images/favicon.ico" }],
     ["meta", { name: "theme-color", content: "#3eaf7c" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [

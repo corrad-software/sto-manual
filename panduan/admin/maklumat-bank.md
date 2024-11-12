@@ -10,4 +10,5 @@
    - Nama pemegang akaun
    - Nombor akaun
 3. Klik butang **Kemas Kini** untuk menyimpan maklumat bank.
+
    ![Rujuk Gambar 2](../../images/bank-admin.png)

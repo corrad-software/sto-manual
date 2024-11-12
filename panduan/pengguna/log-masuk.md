@@ -10,4 +10,5 @@
     - Tandakan kotak **"Ingat saya"** jika ingin menyimpan maklumat log masuk anda untuk akses mudah di masa akan datang.
     - Klik **Log Masuk**.
 2.  Pilihan log masuk lain tersedia dengan **Google** atau **Facebook**. Klik pada salah satu ikon untuk log masuk melalui akaun tersebut.
+
     ![Rujuk Gambar 8](../../images/logmasuk.png)

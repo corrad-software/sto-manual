@@ -30,26 +30,21 @@ Selamat datang ke Sistem Tempahan Online Majlis Perbandaran Selayang. Sistem ini
 - Carian dan pemilihan kemudahan
   - Semakan butiran kemudahan
   - Proses tempahan langkah demi langkah
-
-### [Borang Tempahan](./borang-tempahan)
-
-- Pemilihan tarikh dan masa
-  - Pilihan sesi tempahan
-  - Pilihan persiapan
-  - Pengisian tujuan tempahan
+  - Pengendalian ralat semasa tempahan
+- Panduan tempahan untuk pelbagai kemudahan:
+  - Dewan: Isi borang tempahan dengan tarikh, masa, dan tujuan
+  - Gelanggang: Pilih tarikh, masa, dan gelanggang yang diinginkan
+  - Rumah Rehat: Tentukan tarikh masuk dan keluar serta tujuan
+  - Kolam Renang: Pilih jenis sewaan, tarikh, dan sesi masa
+- Pengurusan Troli:
+  - Semak dan urus tempahan dalam troli
+  - Teruskan ke pembayaran atau buat tempahan baru
 
 ### [Kalendar](./kalendar)
 
 - Semakan ketersediaan kemudahan
   - Navigasi kalendar tempahan
   - Pengendalian ralat semakan
-
-### [Troli](./troli)
-
-- Semakan ringkasan tempahan
-  - Pengurusan item dalam troli
-  - Penambahan/pembatalan tempahan
-  - Proses ke pembayaran
 
 ### [Pembayaran](./pembayaran)
 

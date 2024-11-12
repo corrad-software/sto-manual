@@ -10,4 +10,5 @@
    - Kata laluan baru
    - Sahkan semula kata laluan baru
 3. Klik **Tukar Kata Laluan** untuk menyimpan perubahan.
+
    ![Rujuk Gambar 4](../../images/katalaluan-admin.png)

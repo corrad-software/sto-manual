@@ -15,4 +15,5 @@
    - Bangsa
    - Status OKU
 3. Admin boleh mengemas kini maklumat yang diperlukan dan klik butang **Kemas Kini Profil** untuk menyimpan perubahan.
+
    ![Rujuk Gambar 1](../../images/profil-admin.png)
