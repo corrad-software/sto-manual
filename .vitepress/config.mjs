@@ -15,28 +15,111 @@ export default defineConfig({
           { text: "Pengenalan", link: "/panduan/pengguna/" },
           { text: "Pendaftaran", link: "/panduan/pengguna/pendaftaran" },
           { text: "Log Masuk", link: "/panduan/pengguna/log-masuk" },
-          { text: "Tempahan", link: "/panduan/pengguna/tempahan" },
           {
-            text: "Tempahan Dewan",
-            link: "/panduan/pengguna/tempahan/dewan",
+            text: "Tempahan",
+            items: [
+              {
+                text: "Dewan",
+                link: "/panduan/pengguna/tempahan#dewan",
+              },
+              {
+                text: "Gelanggang",
+                link: "/panduan/pengguna/tempahan#gelanggang",
+              },
+              {
+                text: "Rumah Rehat",
+                link: "/panduan/pengguna/tempahan#rumah-rehat",
+              },
+              {
+                text: "Kolam Renang",
+                link: "/panduan/pengguna/tempahan#kolam-renang",
+              },
+            ],
           },
           {
-            text: "Tempahan Gelanggang",
-            link: "/panduan/pengguna/tempahan/gelanggang",
+            text: "Pembayaran",
+            items: [
+              {
+                text: "Pembayaran",
+                link: "/panduan/pengguna/pembayaran",
+              },
+              {
+                text: "Resit",
+                link: "/panduan/pengguna/resit",
+              },
+            ],
           },
-          { text: "Pembayaran", link: "/panduan/pengguna/pembayaran" },
+          {
+            text: "Tetapan Pengguna",
+            items: [
+              { text: "Profil Admin", link: "/panduan/pengguna/profil" },
+              {
+                text: "Maklumat Bank",
+                link: "/panduan/pengguna/maklumat-bank",
+              },
+              {
+                text: "Senarai Tempahan",
+                link: "/panduan/pengguna/senarai-tempahan",
+              },
+              {
+                text: "Tukar Kata Laluan",
+                link: "/panduan/pengguna/kata-laluan",
+              },
+              { text: "Pusat Bantuan", link: "/panduan/pengguna/bantuan" },
+              {
+                text: "Terma & Syarat",
+                link: "/panduan/pengguna/terma-syarat",
+              },
+            ],
+          },
         ],
       },
       {
         text: "Admin",
         items: [
-          { text: "Pengenalan", link: "/panduan/admin/" },
-          { text: "Profil Admin", link: "/panduan/admin/profil" },
-          { text: "Maklumat Bank", link: "/panduan/admin/maklumat-bank" },
-          { text: "Senarai Tempahan", link: "/panduan/admin/senarai-tempahan" },
-          { text: "Tukar Kata Laluan", link: "/panduan/admin/kata-laluan" },
-          { text: "Pusat Bantuan", link: "/panduan/admin/bantuan" },
-          { text: "Terma & Syarat", link: "/panduan/admin/terma-syarat" },
+          { text: "Dashboard", link: "/panduan/admin/dashboard" },
+          {
+            text: "Pengurusan",
+            items: [
+              {
+                text: "Kemudahan",
+                link: "/panduan/admin/pengurusan-kemudahan",
+              },
+              {
+                text: "Pengguna",
+                link: "/panduan/admin/pengurusan-pengguna",
+              },
+              {
+                text: "Cuti",
+                link: "/panduan/admin/pengurusan-cuti",
+              },
+              {
+                text: "Kolam",
+                link: "/panduan/admin/pengurusan-kolam",
+              },
+            ],
+          },
+          {
+            text: "Tempahan",
+            link: "/panduan/admin/tempahan",
+          },
+          {
+            text: "Kalendar",
+            link: "/panduan/admin/kalendar",
+          },
+          {
+            text: "Laporan",
+            items: [
+              {
+                text: "Laporan 1",
+                link: "/panduan/admin/laporan-1",
+              },
+              {
+                text: "Laporan 2",
+                link: "/panduan/admin/laporan-2",
+              },
+            ],
+          },
         ],
       },
     ],
@@ -48,10 +131,58 @@ export default defineConfig({
             { text: "Pengenalan", link: "/panduan/pengguna/" },
             { text: "Pendaftaran", link: "/panduan/pengguna/pendaftaran" },
             { text: "Log Masuk", link: "/panduan/pengguna/log-masuk" },
-            { text: "Tempahan", link: "/panduan/pengguna/tempahan" },
+            {
+              text: "Tempahan",
+              items: [
+                {
+                  text: "Dewan",
+                  link: "/panduan/pengguna/tempahan#dewan",
+                },
+                {
+                  text: "Gelanggang",
+                  link: "/panduan/pengguna/tempahan#gelanggang",
+                },
+                {
+                  text: "Rumah Rehat",
+                  link: "/panduan/pengguna/tempahan#rumah-rehat",
+                },
+                {
+                  text: "Kolam Renang",
+                  link: "/panduan/pengguna/tempahan#kolam-renang",
+                },
+              ],
+            },
             { text: "Kalendar", link: "/panduan/pengguna/kalendar" },
-            { text: "Pembayaran", link: "/panduan/pengguna/pembayaran" },
-            { text: "Resit", link: "/panduan/pengguna/resit" },
+            {
+              text: "Pembayaran",
+              items: [
+                {
+                  text: "Pembayaran",
+                  link: "/panduan/pengguna/pembayaran",
+                },
+                {
+                  text: "Resit",
+                  link: "/panduan/pengguna/resit",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          text: "Manual Tetapan Pengguna",
+          items: [
+            { text: "Profil", link: "/panduan/pengguna/profil" },
+            { text: "Maklumat Bank", link: "/panduan/pengguna/maklumat-bank" },
+            {
+              text: "Senarai Tempahan",
+              link: "/panduan/pengguna/senarai-tempahan",
+            },
+            {
+              text: "Tukar Kata Laluan",
+              link: "/panduan/pengguna/kata-laluan",
+            },
+            { text: "Pusat Bantuan", link: "/panduan/pengguna/bantuan" },
+            { text: "Terma & Syarat", link: "/panduan/pengguna/terma-syarat" },
           ],
         },
       ],
@@ -59,16 +190,49 @@ export default defineConfig({
         {
           text: "Manual Admin",
           items: [
-            { text: "Pengenalan", link: "/panduan/admin/" },
-            { text: "Profil", link: "/panduan/admin/profil" },
-            { text: "Maklumat Bank", link: "/panduan/admin/maklumat-bank" },
+            { text: "Dashboard", link: "/panduan/admin/dashboard" },
             {
-              text: "Senarai Tempahan",
-              link: "/panduan/admin/senarai-tempahan",
+              text: "Pengurusan",
+              items: [
+                {
+                  text: "Kemudahan",
+                  link: "/panduan/admin/pengurusan-kemudahan",
+                },
+                {
+                  text: "Pengguna",
+                  link: "/panduan/admin/pengurusan-pengguna",
+                },
+                {
+                  text: "Cuti",
+                  link: "/panduan/admin/pengurusan-cuti",
+                },
+                {
+                  text: "Kolam",
+                  link: "/panduan/admin/pengurusan-kolam",
+                },
+              ],
             },
-            { text: "Tukar Kata Laluan", link: "/panduan/admin/kata-laluan" },
-            { text: "Pusat Bantuan", link: "/panduan/admin/bantuan" },
-            { text: "Terma & Syarat", link: "/panduan/admin/terma-syarat" },
+            {
+              text: "Tempahan",
+              link: "/panduan/admin/tempahan",
+            },
+            {
+              text: "Kalendar",
+              link: "/panduan/admin/kalendar",
+            },
+            {
+              text: "Laporan",
+              items: [
+                {
+                  text: "Laporan 1",
+                  link: "/panduan/admin/laporan-1",
+                },
+                {
+                  text: "Laporan 2",
+                  link: "/panduan/admin/laporan-2",
+                },
+              ],
+            },
           ],
         },
       ],

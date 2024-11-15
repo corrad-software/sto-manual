@@ -10,11 +10,11 @@ hero:
     alt: Logo MPS
   actions:
     - theme: brand
-      text: Panduan Pengguna
+      text: Manual Pengguna
       link: /panduan/pengguna/
     - theme: alt
-      text: Portal Admin
-      link: /panduan/admin/
+      text: Manual Admin
+      link: /panduan/admin/dashboard
 
 features:
   - icon: 🏛️
