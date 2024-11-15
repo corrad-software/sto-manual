@@ -2,8 +2,6 @@
 
 - **Tujuan**: Panduan untuk menyemak laporan penggunaan fasiliti secara terperinci berdasarkan nama, sesi, jumlah penggunaan, dan pendapatan. Laporan ini membolehkan anda membuat analisis yang lebih mendalam.
 
----
-
 ## **Langkah-langkah**
 
 ### **1. Menyemak Laporan**
